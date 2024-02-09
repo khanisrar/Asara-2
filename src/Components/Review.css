@@ -1,0 +1,120 @@
+.review h1 {
+    display: flex;
+    justify-content: center;
+    /* margin: 20px; */
+    margin-top: 40px;
+}
+.review h1 span {
+    background: orange;
+    padding:  10px 15px;
+    border-radius: 5px;
+    margin: 3px;
+    color: #fff;
+
+}
+.review .review-slider{
+    padding-bottom: 25px;
+  }
+  
+  .review .box{
+    padding:25px;
+    text-align: center;
+    background: white;
+    box-shadow: 0px 0px 10px 0px rgba(136, 136, 136, 0.589);
+    border-radius: 8px;
+    margin: 40px;
+  }
+  
+  .review .box img{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .review .box h3{
+    color:#000;
+    font-size: 30px;
+  }
+  
+  .review .box p{
+    color:#333;
+    font-size: 17px;
+    padding:12px 0;
+  }
+  
+  .review .box .stars i{
+    color:orange;
+    font-size: 25px;
+  }
+  
+  
+
+ .carousel-cell {
+    width: 66%;
+    border-radius: 5px;
+    counter-increment: gallery-cell;
+  }
+  .review h1 {
+    font-size: 40px;
+    border-bottom: 2px solid rgba(136, 136, 136, 0.562);
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  }
+
+  @media screen and (max-width: 900px) {
+    .review h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    .review h1 span {
+        padding:  5px 10px;
+        border-radius: 5px;
+        margin: 2px;
+    
+    }
+    .review .review-slider{
+        padding-bottom: 25px;
+      }
+      
+      .review .box{
+        padding:20px;
+        text-align: center;
+        border-radius: 8px;
+        margin: 30px;
+      }
+      
+      .review .box img{
+        height:100px;
+        width:100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 15px;
+      }
+      
+      .review .box h3{
+        font-size: 20px;
+      }
+      
+      .review .box p{
+        font-size: 15px;
+        padding:12px 0;
+      }
+      
+      .review .box .stars i{
+        font-size: 20px;
+      }
+      .carousel-cell {
+        width: 100%;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        counter-increment: gallery-cell;
+      }
+
+      
+  }
